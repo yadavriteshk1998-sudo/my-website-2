@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Palak - Meri Jaan ❤️</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #ffd1dc, #ffe6f0);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px 20px;
+      color: #4a0033;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff1493;
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #cc0066;
+      margin-top: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 20px auto;
+      max-width: 650px;
+      line-height: 1.7;
+    }
+
+    .heart {
+      font-size: 4em;
+      animation: beat 1s infinite;
+      color: red;
+    }
+
+    @keyframes beat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-style: italic;
+      color: #444;
+    }
+
+    /* Floating hearts animation */
+    .floating-hearts {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .floating-hearts span {
+      position: absolute;
+      color: #ff4d6d;
+      font-size: 2rem;
+      animation: float 5s linear infinite;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) scale(1);
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-10vh) scale(1.5);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="heart">❤️</div>
+  <h1>Meri Jaan Palak 💖</h1>
+  <h2>Tu meri duniya sei, tu meri zindagi sei 💞</h2>
+
+  <p>
+    Palak, manne bera sei — tere bina sab kuch अधूरा सा लागे।  
+    तेरी मुस्कान देख के दिल को चैन मिल जावे,  
+    और तेरी आँखां में बस एक सुकून सा होवे। 🌸  
+  </p>
+
+  <p>
+    तू मेरी लाइफ की सबसे प्यारी feeling sei,  
+    तुझ में वो बात sei जो किसी और में ना।  
+    तू मेरी हर सुबह की वजह sei, और हर रात का ख्वाब। 🌙  
+  </p>
+
+  <p>
+    जब तू उदास होवे ना jaan, तो दिल तड़प जावे।  
+    पर याद रख — मैं हर पल तेरे साथ सूं।  
+    चाहे तू हसे या रोए, मेरा प्यार तुझसे कम ना होवेगा कभी।  
+    मैं तुझसे सच्चा, दिल से, और हमेशा वाला प्यार करूं सूं। ❤️
+  </p>
+
+  <p>
+    तू मुस्कराती रहे, तेरे गालों पे वो dimples बने रहें —  
+    बस मेरी इतनी सी दुआ sei रोज़ रब्ब से।  
+    Palak, तू मेरी मोहब्बत ना — तू मेरा सब कुछ sei। 😘
+  </p>
+
+  <div class="footer">
+    ~ तेरा ही पागल आशिक 💌<br/>
+    जो तुझसे बेइन्तहा मोहब्बत करे sei 💞
+  </div>
+
+  <!-- Floating Hearts -->
+  <div class="floating-hearts">
+    <span style="left:10%;">💗</span>
+    <span style="left:30%;">💖</span>
+    <span style="left:50%;">❤️</span>
+    <span style="left:70%;">💘</span>
+    <span style="left:90%;">💕</span>
+  </div>
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="https://dl.dropboxusercontent.com/scl/fi/cs2zmld3c39wscrnkxopm/Tum-Hi-Ho---Aashiqui-2.mp3?rlkey=gcbm8c1owgc7co6zk9e94e1o8&dl=0" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+</body>
+</html>
